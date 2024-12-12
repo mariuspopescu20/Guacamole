@@ -730,6 +730,7 @@ else
 fi
 
 # Export the required variables for use by child install scripts
+export XTERM=xterm
 export DOWNLOAD_DIR="${DOWNLOAD_DIR}"
 export GUAC_VERSION=$GUAC_VERSION
 export GUAC_SOURCE_LINK=$GUAC_SOURCE_LINK
